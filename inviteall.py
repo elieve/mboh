@@ -1202,7 +1202,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None)
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("𝐉𝐎𝐢𝐍 𝐇𝐎𝐆𝐘𝐀 𝐕𝐀𝐈 AB BATA KISKO MARU PAHLE🔥")
+                await event.edit("**Berhasil Join ke**")
             except Exception as e:
                 await event.edit(str(e))
         else:
@@ -1244,7 +1244,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None)
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("𝐉𝐎𝐢𝐍 𝐇𝐎𝐆𝐘𝐀 𝐕𝐀𝐈 𝐀𝐁 𝐁𝐓𝐀 𝐊𝐈𝐒𝐊𝐈 𝐌𝐀𝐑𝐔😏🔥")
+                await event.edit("**Berhasil Join ke**")
             except Exception as e:
                 await event.edit(str(e))
         else:
@@ -1602,6 +1602,7 @@ async def get_users(event):
                 await krishna.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
+                await asyncio.sleep(15)
             except Exception as e:
                 error = str(e)
                 f = f + 1
@@ -1640,6 +1641,7 @@ async def get_users(event):
                 await krishna.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
+                await asyncio.sleep(15)
             except Exception as e:
                 error = str(e)
                 f = f + 1
@@ -1677,6 +1679,7 @@ async def get_users(event):
                 await krishna.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
+                await asyncio.sleep(15)
             except Exception as e:
                 error = str(e)
                 f = f + 1
@@ -1714,6 +1717,7 @@ async def get_users(event):
                 await krishna.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
+                await asyncio.sleep(15)
             except Exception as e:
                 error = str(e)
                 f = f + 1
@@ -1751,6 +1755,7 @@ async def get_users(event):
                 await krishna.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
+                await asyncio.sleep(15)
             except Exception as e:
                 error = str(e)
                 f = f + 1
@@ -1788,6 +1793,7 @@ async def get_users(event):
                 await krishna.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
+                await asyncio.sleep(15)
             except Exception as e:
                 error = str(e)
                 f = f + 1
@@ -1825,6 +1831,7 @@ async def get_users(event):
                 await krishna.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
+                await asyncio.sleep(15)
             except Exception as e:
                 error = str(e)
                 f = f + 1
@@ -1862,6 +1869,7 @@ async def get_users(event):
                 await krishna.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
+                await asyncio.sleep(15)
             except Exception as e:
                 error = str(e)
                 f = f + 1
@@ -1899,6 +1907,7 @@ async def get_users(event):
                 await krishna.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
+                await asyncio.sleep(15)
             except Exception as e:
                 error = str(e)
                 f = f + 1
@@ -1936,6 +1945,7 @@ async def get_users(event):
                 await krishna.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
+                await asyncio.sleep(15)
             except Exception as e:
                 error = str(e)
                 f = f + 1
@@ -1973,6 +1983,7 @@ async def get_users(event):
                 await krishna.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
+                await asyncio.sleep(15)
             except Exception as e:
                 error = str(e)
                 f = f + 1
@@ -2010,6 +2021,7 @@ async def get_users(event):
                 await krishna.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
+                await asyncio.sleep(15)
             except Exception as e:
                 error = str(e)
                 f = f + 1
@@ -2047,6 +2059,7 @@ async def get_users(event):
                 await krishna.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
+                await asyncio.sleep(15)
             except Exception as e:
                 error = str(e)
                 f = f + 1
@@ -2084,6 +2097,7 @@ async def get_users(event):
                 await krishna.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
+                await asyncio.sleep(15)
             except Exception as e:
                 error = str(e)
                 f = f + 1
@@ -2121,6 +2135,7 @@ async def get_users(event):
                 await krishna.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
+                await asyncio.sleep(15)
             except Exception as e:
                 error = str(e)
                 f = f + 1
@@ -2158,6 +2173,7 @@ async def get_users(event):
                 await krishna.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
+                await asyncio.sleep(15)
             except Exception as e:
                 error = str(e)
                 f = f + 1
@@ -2195,6 +2211,7 @@ async def get_users(event):
                 await krishna.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
+                await asyncio.sleep(15)
             except Exception as e:
                 error = str(e)
                 f = f + 1
@@ -2232,6 +2249,7 @@ async def get_users(event):
                 await krishna.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
+                await asyncio.sleep(15)
             except Exception as e:
                 error = str(e)
                 f = f + 1
@@ -2269,6 +2287,7 @@ async def get_users(event):
                 await krishna.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
+                await asyncio.sleep(15)
             except Exception as e:
                 error = str(e)
                 f = f + 1
@@ -2306,6 +2325,7 @@ async def get_users(event):
                 await krishna.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
+                await asyncio.sleep(15)
             except Exception as e:
                 error = str(e)
                 f = f + 1
@@ -2343,6 +2363,7 @@ async def get_users(event):
                 await krishna.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
+                await asyncio.sleep(15)
             except Exception as e:
                 error = str(e)
                 f = f + 1
@@ -2380,6 +2401,7 @@ async def get_users(event):
                 await krishna.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
+                await asyncio.sleep(15)
             except Exception as e:
                 error = str(e)
                 f = f + 1
@@ -2417,6 +2439,7 @@ async def get_users(event):
                 await krishna.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
+                await asyncio.sleep(15)
             except Exception as e:
                 error = str(e)
                 f = f + 1
@@ -2457,6 +2480,7 @@ async def get_users(event):
                 await krishna.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
+                await asyncio.sleep(15)
             except Exception as e:
                 error = str(e)
                 f = f + 1
@@ -2494,6 +2518,7 @@ async def get_users(event):
                 await krishna.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
+                await asyncio.sleep(15)
             except Exception as e:
                 error = str(e)
                 f = f + 1
